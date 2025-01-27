@@ -1,0 +1,26 @@
+name: SupperMessage
+version: '1.0.0'
+main: io.github.kouleen.breadbox.BreadBox
+api-version: 1.12.2
+authors: [ kouleen ]
+description: box
+commands:
+  breadbox:
+    description: 'Main player command'
+    aliases: [bbx]
+    usage:  |
+      /breadbox help
+  bbxadmin:
+    description: 'Admin command'
+    usage: |
+      /bbxadmin
+permissions:
+  breadbox.*:
+    default: false
+    children:
+      breadbox.admin.*:
+        default: false
+        children:
+          breadbox.admin.reload:
+            description: Reload the config.yml
+            default: op
