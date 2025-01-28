@@ -13,7 +13,7 @@ import org.bukkit.event.entity.EntityPortalEvent;
 @Component
 public class EntityPortalListener implements Listener {
 
-    @@EventHandler
+    @EventHandler
     public void onEntityPortalListener(EntityPortalEvent entityPortalEvent){
 
     }
