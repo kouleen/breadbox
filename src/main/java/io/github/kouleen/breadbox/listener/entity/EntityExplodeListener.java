@@ -1,6 +1,6 @@
 package io.github.kouleen.breadbox.listener.entity;
 
-import io.github.kouleen.breadlib.annotation.Component;
+import io.github.kouleen.minecraft.core.lang.annotation.Component;
 import org.bukkit.entity.Creeper;
 import org.bukkit.entity.Entity;
 import org.bukkit.event.EventHandler;

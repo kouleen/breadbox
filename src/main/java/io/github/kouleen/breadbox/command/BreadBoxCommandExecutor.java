@@ -1,6 +1,6 @@
 package io.github.kouleen.breadbox.command;
 
-import io.github.kouleen.breadlib.annotation.Component;
+import io.github.kouleen.minecraft.core.lang.annotation.Component;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;

@@ -1,7 +1,7 @@
 package io.github.kouleen.breadbox.listener.player;
 
-import io.github.kouleen.breadlib.annotation.Component;
-import io.github.kouleen.breadlib.utils.ObjectUtils;
+import io.github.kouleen.minecraft.core.lang.annotation.Component;
+import io.github.kouleen.minecraft.core.utils.ObjectUtils;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;

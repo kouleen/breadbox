@@ -1,6 +1,6 @@
 package io.github.kouleen.breadbox.listener.world;
 
-import io.github.kouleen.breadlib.annotation.Component;
+import io.github.kouleen.minecraft.core.lang.annotation.Component;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.world.WorldLoadEvent;

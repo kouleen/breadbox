@@ -1,8 +1,7 @@
 package io.github.kouleen.breadbox;
 
-import io.github.kouleen.breadbox.service.BreadBoxRegisterService;
-import io.github.kouleen.breadlib.BreadLibApplication;
-import io.github.kouleen.breadlib.annotation.Main;
+import io.github.kouleen.minecraft.core.lang.annotation.MinecraftPluginMain;
+import io.github.kouleen.minecraft.plugin.MinecraftPluginRun;
 import org.bukkit.plugin.java.JavaPlugin;
 
 
@@ -10,15 +9,12 @@ import org.bukkit.plugin.java.JavaPlugin;
  * @author zhangqing
  * @since 2025/1/26 16:33
  */
-@Main
+@MinecraftPluginMain
 public class BreadBox extends JavaPlugin {
-
-    private BreadBoxRegisterService breadBoxRegisterService;
 
     @Override
     public void onLoad() {
-        BreadLibApplication.run(this, getClassLoader());
-        this.breadBoxRegisterService = new BreadBoxRegisterService(this);
+        MinecraftPluginRun.start(this, getClassLoader());
     }
 
     @Override
